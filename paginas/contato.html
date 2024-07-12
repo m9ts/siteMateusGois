@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="../imagens/cssfavicon1.png">
+    <link rel="stylesheet"type="text/css" href="../folhasEstilos/layoutCSS.css"/>
+    <link rel="stylesheet" type="text/css" href="../folhasEstilos/formulario.css">
+    <title>DEV FULLTIME</title>
+</head>
+<body>
+    <header>
+        <img src="../imagens/logo/cssLogo.png" alt="Logo do site"/>
+        <h1>DEV FULLTIME</h1>
+        <nav>
+            <ul>
+                <li><a href="../paginas/index.html"><b>PÁGINA PRINCIPAL</b></a></li>
+                <li><a href="../paginas/contato.html"><b>CONTATO</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="formulario">
+            <h2 class="contato">CONTATE-NOS</h2>
+            <form action="#" method="post">
+                <label for="nome"><b>Nome*</b></label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email"><b>E-mail*</b></label>   
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone"><b>Telefone</b></label>
+                <input type="text" id="tel" name="tel">
+
+                <label for="endereco"><b>Endereço</b></label>
+                <input type="text" id="endereco" name="endereco">
+
+                <label for="dataNascimento"><b>Data de nascimento</b></label>
+                <input type="text" id="dataNascimento" nome="dataNascimento">
+
+                <label for="mensagem"><b>Mensagem</b></label>
+                <type="textarea" id="mensagem" name="mensagem" rows="6" required></textarea>
+                
+                <label for="ondeConheceu"><b>Onde nos conheceu?</b></label>
+                <select id="ondeConheceu" name="OndeConheceu">
+                    <option value="amigos">Amigos</option>
+                    <option value="internet">Internet</option>
+                    <option value="indicacao">Indicação</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="novidade"><b>Deseja receber novidades?</b></label>
+                <input type="checkbox" id="novidade" name="novidade">
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 - Mateus Gois Silva</p>
+    </footer>
+</body>
+</html>
